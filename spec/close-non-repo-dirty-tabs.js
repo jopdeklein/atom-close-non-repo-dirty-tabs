@@ -1,6 +1,6 @@
 'use babel';
 
-import CloseNonRepoTabs from '../lib/close-non-repo-tabs';
+import CloseNonRepoTabs from '../lib/close-non-repo-dirty-tabs';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //

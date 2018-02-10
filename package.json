@@ -1,14 +1,13 @@
 {
-  "name": "close-non-repo-tabs",
-  "main": "./lib/close-non-repo-tabs",
+  "name": "close-non-repo-dirty-tabs",
+  "main": "./lib/close-non-repo-dirty-tabs",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "description": "Closes all tabs that aren't modified in their CVS repository",
+  "keywords": [],
   "activationCommands": {
-    "atom-workspace": "close-non-repo-tabs:close"
+    "atom-workspace": "close-non-repo-dirty-tabs:close"
   },
-  "repository": "https://github.com/atom/close-non-repo-tabs",
+  "repository": "https://github.com/atom/close-non-repo-dirty-tabs",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
