@@ -1,0 +1,19 @@
+{
+  "name": "close-non-repo-tabs",
+  "main": "./lib/close-non-repo-tabs",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "close-non-repo-tabs:close"
+  },
+  "repository": "https://github.com/atom/close-non-repo-tabs",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs-plus": "^3.0.0"
+  }
+}

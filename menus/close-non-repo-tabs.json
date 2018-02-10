@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "close close-non-repo-tabs",
+        "command": "close-non-repo-tabs:close"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "close-non-repo-tabs",
+          "submenu": [
+            {
+              "label": "close",
+              "command": "close-non-repo-tabs:close"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
